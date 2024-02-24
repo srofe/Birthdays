@@ -32,6 +32,7 @@
 		F46140DB2B8A1FFF0093DC48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4F8FFDA2B8A26E9004C7A97 /* BirthdaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F8FFDC2B8A26E9004C7A97 /* BirthdaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTests.swift; sourceTree = "<group>"; };
+		F4F8FFE32B8A27CB004C7A97 /* Birthdays.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Birthdays.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		F46140C82B8A1FFD0093DC48 = {
 			isa = PBXGroup;
 			children = (
+				F4F8FFE32B8A27CB004C7A97 /* Birthdays.xctestplan */,
 				F46140D32B8A1FFD0093DC48 /* Birthdays */,
 				F4F8FFDB2B8A26E9004C7A97 /* BirthdaysTests */,
 				F46140D22B8A1FFD0093DC48 /* Products */,
