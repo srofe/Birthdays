@@ -9,6 +9,7 @@
     }
   ],
   "defaultOptions" : {
+    "codeCoverage" : false,
     "targetForVariableExpansion" : {
       "containerPath" : "container:Birthdays.xcodeproj",
       "identifier" : "F46140D02B8A1FFD0093DC48",
