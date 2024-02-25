@@ -38,6 +38,7 @@
 		F4F8FFE42B8A3439004C7A97 /* MainEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntryPoint.swift; sourceTree = "<group>"; };
 		F4F8FFE62B8A354A004C7A97 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
 		F4F8FFE82B8AE364004C7A97 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		F4F8FFE92B8B24F8004C7A97 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		F46140C82B8A1FFD0093DC48 = {
 			isa = PBXGroup;
 			children = (
+				F4F8FFE92B8B24F8004C7A97 /* README.md */,
 				F4F8FFE82B8AE364004C7A97 /* LICENSE.txt */,
 				F4F8FFE32B8A27CB004C7A97 /* Birthdays.xctestplan */,
 				F46140D32B8A1FFD0093DC48 /* Birthdays */,
