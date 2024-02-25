@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "25E67274-EA77-46E9-842B-8792ED7D3CE1",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Birthdays.xcodeproj",
+      "identifier" : "F46140D02B8A1FFD0093DC48",
+      "name" : "Birthdays"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Birthdays.xcodeproj",
+        "identifier" : "F4F8FFD92B8A26E9004C7A97",
+        "name" : "BirthdaysTests"
+      }
+    }
+  ],
+  "version" : 1
+}
