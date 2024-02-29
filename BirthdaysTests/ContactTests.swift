@@ -1,9 +1,5 @@
 import XCTest
-
-struct Contact {
-    let firstName: String
-    let lastName: String
-}
+@testable import Birthdays
 
 final class ContactTests: XCTestCase {
     private var sut: Contact!
