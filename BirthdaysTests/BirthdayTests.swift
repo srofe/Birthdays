@@ -3,6 +3,7 @@ import XCTest
 struct Birthday {
     let day: Int
     let month: Int
+    let year: Int? = nil
 }
 
 final class BirthdayTests: XCTestCase {
@@ -24,5 +25,9 @@ final class BirthdayTests: XCTestCase {
 
     func testBirthday_hasMonth() throws {
         XCTAssertEqual(sut.month, 7, "A Birthday shall have a month property.")
+    }
+
+    func testBirthay_hasYear_nilByDefault() {
+        XCTAssertNil(sut.year, "A Birthday shall have a year property which is nil by default.")
     }
 }
