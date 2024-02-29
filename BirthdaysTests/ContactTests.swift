@@ -6,13 +6,23 @@ struct Contact {
 }
 
 final class ContactTests: XCTestCase {
+    private var sut: Contact!
+
+    override func setUp() {
+        super.setUp()
+        sut = Contact(firstName: "First", lastName: "Last")
+    }
+
+    override func tearDown() {
+        sut = nil
+        super.tearDown()
+    }
+
     func testContact_hasFirstName() throws {
-        let contact = Contact(firstName: "First", lastName: "")
-        XCTAssertEqual(contact.firstName, "First", "A Contact shall have a first name.")
+        XCTAssertEqual(sut.firstName, "First", "A Contact shall have a first name.")
     }
 
     func testContact_hasLastName() throws {
-        let contact = Contact(firstName: "First", lastName: "Last")
-        XCTAssertEqual(contact.lastName, "Last")
+        XCTAssertEqual(sut.lastName, "Last")
     }
 }
