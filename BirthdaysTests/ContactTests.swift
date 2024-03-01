@@ -25,4 +25,10 @@ final class ContactTests: XCTestCase {
     func test_contactHasBirhday_nilByDefault() throws {
         XCTAssertNil(sut.birthday, "A Contact shall have a birhtday which is nil by default.")
     }
+
+    func test_contactHasBirthday_notNil() throws {
+        let birthday = Birthday(day: 4, month: 8, year: 2007)
+        let contactWithBirthday = Contact(firstName: "Jim", lastName: "Young", birthday: birthday)
+        XCTAssertEqual(contactWithBirthday.birthday, birthday, "A Contact shall allow the birhtday to be set.")
+    }
 }

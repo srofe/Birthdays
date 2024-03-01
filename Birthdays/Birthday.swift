@@ -1,6 +1,6 @@
 import Foundation
 
-struct Birthday {
+struct Birthday: Equatable {
     let day: Int
     let month: Int
     let year: Int?
