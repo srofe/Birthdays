@@ -19,6 +19,6 @@ final class ContactTests: XCTestCase {
     }
 
     func testContact_hasLastName() throws {
-        XCTAssertEqual(sut.lastName, "Last")
+        XCTAssertEqual(sut.lastName, "Last", "A Contact shall have a last name.")
     }
 }
