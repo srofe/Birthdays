@@ -16,6 +16,7 @@
 		F4F8FFE72B8A354A004C7A97 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8FFE62B8A354A004C7A97 /* TestApp.swift */; };
 		F9DEF0DC2B914BFD009AB116 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DEF0DB2B914BFD009AB116 /* Contact.swift */; };
 		F9DEF0DE2B914CD4009AB116 /* BirthdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DEF0DD2B914CD4009AB116 /* BirthdayTests.swift */; };
+		F9DEF0E02B915325009AB116 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DEF0DF2B915325009AB116 /* Birthday.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		F4F8FFE92B8B24F8004C7A97 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F9DEF0DB2B914BFD009AB116 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		F9DEF0DD2B914CD4009AB116 /* BirthdayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayTests.swift; sourceTree = "<group>"; };
+		F9DEF0DF2B915325009AB116 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				F4F8FFE62B8A354A004C7A97 /* TestApp.swift */,
 				F46140D62B8A1FFD0093DC48 /* ContentView.swift */,
 				F9DEF0DB2B914BFD009AB116 /* Contact.swift */,
+				F9DEF0DF2B915325009AB116 /* Birthday.swift */,
 				F46140D82B8A1FFF0093DC48 /* Assets.xcassets */,
 				F46140DA2B8A1FFF0093DC48 /* Preview Content */,
 			);
@@ -217,6 +220,7 @@
 			files = (
 				F4F8FFE52B8A3439004C7A97 /* MainEntryPoint.swift in Sources */,
 				F4F8FFE72B8A354A004C7A97 /* TestApp.swift in Sources */,
+				F9DEF0E02B915325009AB116 /* Birthday.swift in Sources */,
 				F9DEF0DC2B914BFD009AB116 /* Contact.swift in Sources */,
 				F46140D72B8A1FFD0093DC48 /* ContentView.swift in Sources */,
 				F46140D52B8A1FFD0093DC48 /* BirthdaysApp.swift in Sources */,
