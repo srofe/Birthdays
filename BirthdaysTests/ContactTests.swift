@@ -21,4 +21,8 @@ final class ContactTests: XCTestCase {
     func testContact_hasLastName() throws {
         XCTAssertEqual(sut.lastName, "Last", "A Contact shall have a last name.")
     }
+
+    func test_contactHasBirhday_nilByDefault() throws {
+        XCTAssertNil(sut.birthday, "A Contact shall have a birhtday which is nil by default.")
+    }
 }
