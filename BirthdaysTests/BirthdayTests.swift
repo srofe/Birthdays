@@ -25,4 +25,9 @@ final class BirthdayTests: XCTestCase {
     func testBirthay_hasYear_nilByDefault() {
         XCTAssertNil(sut.year, "A Birthday shall have a year property which is nil by default.")
     }
+
+    func testBirthday_hasYear_notNil() {
+        let birthdayWithYear = Birthday(day: 23, month: 4, year: 1956)
+        XCTAssertEqual(birthdayWithYear.year, 1956, "A Birthday shall allow the year property to be set.")
+    }
 }
